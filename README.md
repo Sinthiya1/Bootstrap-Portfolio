@@ -1,15 +1,14 @@
 ## Bootstrap-portfolio
 
-A portfolio made with bootstrap components
+I made this portfolio using bootstrap components
 
-## Usage
+## Description
 
-This repo contains a new portfolio website. It was built using bootstrap 4, and adding my own css styles. It showcases my most recent work and will be updated, as I progress throughout the course.
+This repository contains a portfolio that I built using bootstrap 5, css styles. It showcases my most recent work and will be updated, as I progress throughout the course & some of my skills.
 
-- It contains my name, a picture, and a form where users can message me, and it I will receive it on my email.
+- It contains my name, a picture of mine and a about section where you will get a short summary about me.
 - For each project, a modal appears with more details about each one.
-- It also contains a wireframe, of the project.
+- In the bottom of this website you will get some of my social links where you can find me.
 
-I've expermented a lot with linear gradients, and different hover effects/animations.
 
 
