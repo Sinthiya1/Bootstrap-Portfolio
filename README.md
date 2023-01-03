@@ -10,5 +10,7 @@ This repository contains a portfolio that I built using bootstrap 5, css styles.
 - For each project, a modal appears with more details about each one.
 - In the bottom of this website you will get some of my social links where you can find me.
 
+### Link
+<a href="https://sinthiya1.github.io/Bootstrap-Portfolio/#skills/">Bootstrap Portfolio Website</a>
 
 
