@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Sinthiya's Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand nav-link" href="#">Sinthiya Islam | Web & Content Developer</a>
+        <!-- hamburger bar -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Navigation bar -->
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container hero-container">
+            <div class="hero-greeting">
+              <h2>Hey! I'm Sinthiya</h2>
+              <p class="welcome">This is my website &#128522</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about myself-->
+      <section id="about">
+        <div class="jumbotron jumbotron-fluid">
+          <h2 class="sectionHeading">About Me</h2>
+          <div class="container">
+            <div class="row">
+              <div class="about-pic col-md-3 col-sm-12 flex-column text-center">
+                <img
+                  class="profile-pic"
+                  src="./assets/images/profile-pic.jpg"
+                  alt="Profile pic"
+                />
+              </div>
+
+              <div class="col-md-9 col-sm-12 about-content">
+                <p>
+                  Hi, I am Sinthiya. I graduated from North South University of Bangladesh in December 2019 with a 
+          Bachelors of Science in Computer Science & Engineering. After finishing my graduation I started my career 
+          as a Content Developer & Advisor. Last year I moved to London and now I am doing a Retail job. Recently I have started 
+          a Coding Bootcamp and aim to become a Web Developer. </p>
+          <p>There are many things I like to do, to see,
+    and to experience. I like to read and write. I like coding. I like to travel new countries. I like to cook.
+     I like to see the sunrise in the morning, I like to see the moonlight at night; 
+     I like to smell the wind coming from the ocean.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My work section here I put my projects so far -->
+      <section id="work">
+        <div class="container-fluid content">
+          <h2 class="sectionHeading">My Work</h2>
+          
+          <div class="row"> 
+            <!-- Card 1 -->
+            <div class="cardContainer col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <img
+                  src="./assets/screenshots/Horiseon.png"
+                  class="card-img-top"
+                  alt="Screenshot of Social-Solution-Service"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Social Solution Service</h5>
+                  <p class="card-text">
+                    Click to see the website
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn btn-lg btn-block mt-auto project-button"
+                    data-toggle="modal"
+                    data-target="#social-solution-service"
+                    >Click</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal 1-->
+
+            <div class="modal fade" id="social-solution-service">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">horiseon</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  
+                  <div class="modal-footer">
+                    <a
+                      class="btn-btn-primary"
+                      href="https://sinthiya1.github.io/Social-Solution-Service/"
+                      target="_blank"
+                      >Visit the site</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+           
+            <!-- End card 1, End Modal 1-->
+
+            <!-- Card 2 -->
+
+            <div class="card-container col-lg-4 col-md-6 col-12">
+              <div class="frame">
+                <div class="card">
+                  <img
+                    src="./assets/screenshots/project2.png"
+                    class="card-img-top"
+                    alt="Screenshot of CSS Snippet cheatsheet"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">CSS Snippet Cheatsheet</h5>
+                    <p class="card-text">
+                      Click to see the website
+                    </p>
+                    <a
+                      href="#"
+                      class="btn btn btn-lg btn-block mt-auto project-button"
+                      data-toggle="modal"
+                      data-target="#css-snippet-cheatsheet"
+                      >Click</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal 2-->
+
+            <div class="modal fade" id="css-snippet-cheatsheet">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">snippet cheatsheet</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-footer">
+                    <a
+                      class="btn-btn-primary"
+                      href="https://sinthiya1.github.io/CSS-Snippet-Cheatsheet/"
+                      target="_blank"
+                      >Visit the site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div> 
+  
+            <!-- End card 2, End Modal 2-->
+
+            <!-- Card 3 -->
+            <div class="cardContainer col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div>
+                  <img
+                    src="./assets/screenshots/rockOn.jpg"
+                    class="card-img-top"
+                    alt="Screenshot of rock nation website"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Rock Nation</h5>
+                  <p class="card-text">Click to visit the website</p>
+                  <a
+                    href="#"
+                    class="btn btn btn-lg btn-block mt-auto project-button"
+                    data-toggle="modal"
+                    data-target="#rock-nation"
+                    >Click</a
+                  >
+                </div>
+              </div>
+            </div>
+         <!-- Modal 3-->
+       
+         <div class="modal fade" id="rock-nation">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">rock-nation</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-footer">
+                <a
+                  class="btn-btn-primary"
+                  href="https://sinthiya1.github.io/Rock-Nation/"
+                  target="_blank">Visit the site</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+            <!-- End card 3, End Modal 3 -->
+        
+            <!-- Card 4 -->
+            <div class="cardContainer col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div>
+                  <img
+                    class="card-img-top"
+                    src="./assets/screenshots/project4.png"
+                    alt="Screenshot of prework study guide"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Prework Study Guide</h5>
+                  <p class="card-text">
+                    Click to visit the website
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn btn-lg btn-block mt-auto project-button"
+                    data-toggle="modal"
+                    data-target="#prework-study-guide"
+                    >Click</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Modal 4-->
+            <div class="modal fade" id="prework-study-guide">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">prework study guide</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                 
+                  <div class="modal-footer">
+                    <a
+                      class="btn-btn-primary"
+                      href="https://sinthiya1.github.io/prework-study-guide/"
+                      target="_blank"
+                      >Visit the site</a
+                    >
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- End card 4,End Modal 4 -->
+          <!-- Card 5-->
+          <div class="cardContainer col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="./assets/screenshots/project5.jpg"
+                class="card-img-top"
+                alt="Screenshot of project 5"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Coming Soon..</h5>
+                <p class="card-text">
+                  click to visit the website
+                </p>
+                <a
+                  href="#"
+                  class="btn btn btn-lg btn-block mt-auto project-button"
+                  data-toggle="modal"
+                  data-target="#project-5"
+                  >click</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--End Card 5, Modal not finished -->
+
+      </section>
+
+<!-- end my work-->
+
+      <!-- my skills section -->
+    
+      
+      <div class="container-skill">
+    <section id="skills">
+      <h2 class="sectionHeading">My Skills</h2>
+      <h5>Some of my skills are:</h5>
+         <li class="bold">HTML</li> 
+          <li class="bold">CSS</li> 
+          <li class="bold">JavaScript</li>
+      <li class="bold">Bootstrap</li> 
+      <li class="bold">Content Developing</li> 
+      <li class="bold">Customer Service</li>
+      <li class="bold">Microsoft Applications</li>
+    
+  </section>
+</div> 
+    
+    </main> 
+     <!-- contact section -->
+    <!-- footer -->
+   
+    <footer>
+      <section id="contact">
+        <div class="jumbotron jumbotron-fluid contact-container">
+          <h2>Contact Me</h2>
+          <div class="container">
+          </div>
+        </div>
+      
+  
+      <div class="jumbotron jumbotron-fluid">
+      
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4 text-center social-link">
+              <a href="https://github.com/Sinthiya1" target="_blank">
+                <i class="fa-brands fa-github icon-footer"></i>
+                <p>Github</p>
+              </a>
+            </div>
+
+            <div class="col-4 text-center social-link">
+              <a href="https://www.linkedin.com/in/sinthiya-islam-312684176/" target="_blank">
+                <i class="fa-brands fa-linkedin icon-footer"></i>
+                <p>Linkedin</p>
+              </a>
+            </div>
+            <div class="col-4 text-center social-link" target="_blank">
+              <a href="mailto:sinthiya.islamjuly35@gmail.com">
+                <i class="fa-solid fa-envelope icon-footer"></i>
+                <p>Email</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+       
+
+
+        <div class="futer">
+
+         <div class="p-3 mb-2 bg-info text-white">Sinthiya Islam &copy 2022</div>
+          
+    </div>
+
+
+      </div>
+      </section>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
